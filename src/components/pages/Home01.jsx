@@ -11,6 +11,7 @@ import { Featured } from "../layouts/general/featured";
 import { Benefit } from "../layouts/home06";
 import Currency from "../layouts/Currency";
 import Slider2 from "../layouts/general/Slider2";
+import HeroOne from "../layouts/general/Slider2";
 
 
 function Home01() {
@@ -30,6 +31,7 @@ function Home01() {
           <Header data={data} key={data.id} />
         ))}
         {/* <Slider2 /> */}
+        <HeroOne/>
         <Featured />
         <Benefit />
         <Currency />
