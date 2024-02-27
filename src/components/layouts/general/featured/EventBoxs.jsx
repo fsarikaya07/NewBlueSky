@@ -21,7 +21,7 @@ class EventBoxs extends Component {
         },
         {
           id: 3,
-          srcimg: "images/account/eccnaccount.jpg",
+          srcimg: "images/account/EccnAccount.jpg",
           title: "ECN Account",
           description:
             "ECN Account, which stands for Electronic Communication Network, is seen as one of the biggest innovations in the modern forex market...",

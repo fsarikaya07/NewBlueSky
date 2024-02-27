@@ -53,7 +53,7 @@ const Benefit = () => {
           </div>
 
           <div className="col-md-8">
-            <div className="row">
+            <div className="row displaBlock">
               {itembox.map((data) => (
                 <div className="iconbox-item" key={data.id}>
                   <div className="iconbox style3">

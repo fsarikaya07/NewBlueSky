@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import AboutSlider from "../general/AboutSlider";
 
-class BoxView extends Component {
+class PlatformBox extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -55,36 +55,40 @@ class BoxView extends Component {
         <div className="flexslider s2">
           <div className="flat-slides">
             <ul className="slides">
-              <img src="images/BLUESKY/slider2.jpg" alt="about"/>
+              <img src="images/BLUESKY/slider3.jpg" alt="about" />
             </ul>
           </div>
         </div>
         <div className="box-content backgroundColorWhite">
-          <div className="title">
-            Blue Sky Markets is a broker company operating with a St Vincent
-            license since 2017.
-          </div>
+          <div className="title">What is a Demo Account?</div>
+          <h>Fastest Way of Secure Investments</h>
           <p>
-            Blue Sky Markets team is here to provide you a service above world
-            standards. With more than 140 products and several account options
-            tailored for each investor's needs, we offer satisfaction guarantee
-            to all our investors who want to take part in Forex markets. <br />
+            Even if you do not have any investment or trading experience, you
+            too, may want to step into Forex, the world’s largest market with a
+            daily transaction volume of over 5 trillion dollars, and get your
+            own share of it. With a demo account, we offer you the opportunity
+            to test yourself beforehand so that you do not risk your capital
+            while evaluating your strategies and measuring the impact of your
+            predictions.. <br />
             <br />
-            Featuring the MetaTrader4 and MetaTrader5 trading platforms, we
-            provide our customers with a 5/24 service with a leverage ratio of
-            1:200. <br />
-            <br /> We produce special solutions for our customers, who are just
-            starting to trade in the markets and who are traders in the forex
-            markets for a long time. Our expert investment consultants and
-            customer service team are on your side to make sure your trading
-            operates in a safe way.
+            Demo Account can also be seen as a trial account. Although it works
+            just like a real account does, you can see the results of your
+            transactions and try your strategies without risking your money as
+            you will not be actually funding it. There is no real money
+            transactions in a demo account. Trading is done only as a trial and
+            you can see possible scenarios.
             <br />
-            <br /> Investor friendly service understanding, fast
-            deposit/withdrawal opportunities and last minute developments
-            regarding the market are all just a few of the opportunities that
-            Blue Sky Markets customers will benefit from. You can be sure that
-            our team will provide all necessary support and will do whatever it
-            takes to get a more comfortable and secure investment experience!
+            <br /> The prices of the pairs offered by the demo account are the
+            same as the real ones. At this point, investors learn about the
+            operation of the market over real price ratios without taking any
+            risks. With the Forex demo account, they can grasp the basic logic
+            of the market in a short time.
+            <br />
+            <br />
+            Opening a Forex demo account is very simple. After a few minutes of
+            trading, you will receive your demo account login information.
+            <br />
+            <br />
           </p>
           <div className="dividers dividers-bc-v4"></div>
         </div>
@@ -93,4 +97,4 @@ class BoxView extends Component {
   }
 }
 
-export default BoxView;
+export default PlatformBox;

@@ -1,7 +1,7 @@
 import React from "react";
 import { Header, TopBar, Footer, Loader } from "../layouts/general";
 import { Link } from "react-router-dom";
-
+import Form from "../layouts/form/Form";
 function Platform() {
   const headers = [
     {
@@ -117,10 +117,15 @@ function Platform() {
             </div>
           </div>
         </div>
-        <section className="main-content">
+
+        <section className="main-content ">
+        <div className="d-flex  justify-content-center align-items-center">
+
+          <img src="images/BLUESKY/platformimg.jpg" alt="about"  className="img-fluid" width={800}/>
+        </div>
           <div className="container backgroundColorWhite">
-            <div className=" ">
-              <div className="d-flex justify-content-center align-items-center ">
+            <div className="">
+              <div className=" justify-content-center align-items-center ">
                 <div className="post-wrap">
                   <article className="main-post">
                     <div className="entry-post-title">
@@ -137,91 +142,7 @@ function Platform() {
                     </div>
                   </article>
                 </div>
-                <div className="main-single">
-                  <div id="comments" className="comments-area">
-                    <div id="respond" className="comment-respond">
-                      <h3 id="reply-title" className="comment-reply-title">
-                        Leave A Reply{" "}
-                        <small>
-                          <Link
-                            rel="nofollow"
-                            id="cancel-comment-reply-link"
-                            to=""
-                          >
-                            Cancel reply
-                          </Link>
-                        </small>
-                      </h3>
-                      <form
-                        action=""
-                        method=""
-                        id="commentform"
-                        className="clearfix"
-                      >
-                        <div className="comment-left">
-                          <fieldset className="name-container">
-                            <input
-                              type="text"
-                              id="author"
-                              placeholder="Name"
-                              className="tb-my-input"
-                              name="author"
-                              tabIndex="1"
-                              size="32"
-                              aria-required="true"
-                            />
-                          </fieldset>
-                        </div>
-                        <fieldset className="email-container">
-                          <input
-                            type="text"
-                            id="email"
-                            placeholder="Email"
-                            className="tb-my-input"
-                            name="email"
-                            tabIndex="2"
-                            size="32"
-                            aria-required="true"
-                          />
-                        </fieldset>
-                        <p className="comment-form-cookies-consent">
-                          <input
-                            id="wp-comment-cookies-consent"
-                            name="wp-comment-cookies-consent"
-                            type="checkbox"
-                            value="yes"
-                          />
-                          <label htmlFor="wp-comment-cookies-consent">
-                            Save my name, email, and website in this browser for
-                            the next time I comment.
-                          </label>
-                        </p>
-                        <div className="comment-right">
-                          <fieldset className="message">
-                            <textarea
-                              id="comment-message"
-                              placeholder="Comment"
-                              name="comment"
-                              rows="8"
-                              tabIndex="4"
-                            ></textarea>
-                          </fieldset>
-                        </div>
-                        <p className="form-submit">
-                          <input
-                            name="submit"
-                            type="submit"
-                            id="comment-reply"
-                            className="submit"
-                            value="Post Comment"
-                          />
-                          {/* <input type="hidden" name="comment_post_ID" value="225" id="comment_post_ID" />
-                                                    <input type="hidden" name="comment_parent" id="comment_parent" value="0" /> */}
-                        </p>
-                      </form>
-                    </div>
-                  </div>
-                </div>
+                <div className="main-single"></div>
               </div>
             </div>
           </div>

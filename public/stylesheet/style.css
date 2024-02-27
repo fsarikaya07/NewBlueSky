@@ -3290,7 +3290,7 @@ article.post .content-post {
   content: "";
   display: block;
   border-radius: 50%;
-  border: 2px solid #201658;
+  border: 2px solid #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3911,4 +3911,7 @@ ul.list em {
 
 .marginTop {
   margin-top: 20px !important;
+}
+.displaBlock{
+  display: block !important;
 }
