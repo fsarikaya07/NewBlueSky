@@ -110,7 +110,7 @@ class RiskManagement extends Component {
                 </div>
                 <hr />
                 {/* /// Text Area */}
-                <div className="site-section py-5">
+                <div className="site-section py-5 marginBottom">
                   <div className="container">
                     <div className="row align-items-center">
                       <div
