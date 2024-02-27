@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom/dist";
+import "./App.css";
+import Home01 from "./components/pages/Home01";
+import OverView from "./components/pages/OverView";
+import AccComponent from "./components/pages/Account";
+import RiskManagement from "./components/pages/RiskManagement";
+import Contact01 from "./components/pages/Contact01";
+import Platform from "./components/pages/Platform";
+import Whatsapp from "./components/layouts/Whatsapp";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <BrowserRouter>
+        <Whatsapp/>
+        <Routes>
+          <Route path={`/`} exact element={<Home01 />} />
+          <Route path={`/about`} exact element={<OverView />} />
+          <Route path={`/account`} exact element={<AccComponent />} />
+          <Route path={`/money-deposit`} exact element={<RiskManagement />} />
+          <Route path={`/contact`} exact element={<Contact01 />} />
+          <Route path={`/platforms`} exact element={<Platform />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
