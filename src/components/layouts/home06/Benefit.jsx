@@ -32,7 +32,7 @@ const Benefit = () => {
       title: "Stocks, Currencies, Commodity, Metals",
       classicon: "icon-benefit global",
       boxcontent:
-        "Invest your fiat money or crypto in Forex, cryptocurrencies, indices, precious metals, and commodities. The best experience guaranteed!",
+        "Invest your fiat money or crypto in Forex, cryptocurrencies, indices...",
     },
     {
       id: 6,

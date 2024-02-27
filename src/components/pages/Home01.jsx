@@ -10,6 +10,8 @@ import {
 import { Featured } from "../layouts/general/featured";
 import { Benefit } from "../layouts/home06";
 import Currency from "../layouts/Currency";
+import Slider2 from "../layouts/general/Slider2";
+
 
 function Home01() {
   const headers = [
@@ -27,7 +29,7 @@ function Home01() {
         {headers.map((data) => (
           <Header data={data} key={data.id} />
         ))}
-        <Slider />
+        {/* <Slider2 /> */}
         <Featured />
         <Benefit />
         <Currency />
