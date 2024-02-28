@@ -30,7 +30,7 @@ const Footer = () => {
               </div>
               {/* <!-- /.col-md-4 --> */}
               <div className="col-md-4">
-                <RecentImage />
+                {/* <RecentImage /> */}
               </div>
               {/* <!-- /.col-md-4 --> */}
             </div>
@@ -42,11 +42,11 @@ const Footer = () => {
         {/* <BottomBar /> */}
         {/* footer-bottom  */}
       </footer>
-      <div className="button-go-top">
+      {/* <div className="button-go-top">
         <Link to="#" title="" className="go-top">
           <i className="fa fa-chevron-up"></i>
         </Link>
-      </div>
+      </div> */}
     </div>
     // <!-- /#footer -->
   );
