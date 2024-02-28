@@ -305,14 +305,14 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   display: inline-block;
-  color: #fff;
+  color: #f7f7f7 !important;
   padding: 0px 29px 0 30px;
   height: 45px;
   line-height: 42px;
   font-size: 13px;
   text-transform: uppercase;
   color: #ffffff;
-  background: #201658;
+  background: #201658 !important;
   border: 1px solid #201658;
   -webkit-border-radius: 20px;
   -ms-border-radius: 20px;

@@ -7007,19 +7007,7 @@ a.sc-hLBbgP {
     color: var(--thm-primary);
 }
 
-.services-details-search-form button[type="submit"] {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 17px;
-    color: var(--thm-gray);
-    font-size: 15px;
-    width: 20px;
-    outline: none;
-    border: none;
-    padding: 0;
-    background-color: transparent;
-}
+
 
 .services-details-search-form button span::before {
     position: relative;
@@ -8341,10 +8329,7 @@ a.sc-hLBbgP {
     transition: all 500ms ease;
 }
 
-.sidebar__search-form:hover button[type="submit"] {
-    background-color: var(--thm-black);
-    color: #ffffff;
-}
+
 
 .sidebar__category {
     position: relative;
